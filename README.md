@@ -115,6 +115,15 @@ A Flask-based backend system for analyzing negotiation conversations and providi
 
 [Add license information here]
 
+## Security
+
+### API Key Management
+- **Never commit your actual API keys to version control**
+- Always use the `.env` file for storing sensitive credentials
+- Ensure `.env` is included in your `.gitignore` file (it's already configured in this project)
+- For deployment, use environment variables provided by your hosting platform
+- Regularly rotate your API keys for enhanced security
+
 ## Contributing
 
 [Add contribution guidelines here] 
